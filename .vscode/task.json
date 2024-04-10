@@ -12,9 +12,9 @@
                 "${workspaceFolder}\\${fileBasenameNoExtension}.exe",
                 "D:\\OpenCV\\opencv\\build\\x64\\mingw\\bin\\libopencv_world452.dll",
                 "-I",
-                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\install\\include",
+                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\include",
                 "-I",
-                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\install\\include\\opencv2"
+                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\opencv2"
             ],
             "options": {
                 "cwd": "D:/mingw64/bin"
