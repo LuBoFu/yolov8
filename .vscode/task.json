@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "opencv4.9.0 compile task",
+            "command": "D:/mingw64/bin/g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${workspaceFolder}\\${fileBasenameNoExtension}.exe",
+                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\bin\\libopencv_world452.dll",
+                "-I",
+                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\install\\include",
+                "-I",
+                "D:\\OpenCV\\opencv\\build\\x64\\mingw\\install\\include\\opencv2"
+            ],
+            "options": {
+                "cwd": "D:/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "presentation": { 
+                "panel": "new" 
+            }
+        }
+    ]
+}
